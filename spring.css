@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(40deg,rgb(42, 41, 41),rgb(24, 23, 23),rgb(42, 41, 41));
+    height: 100vh;
+}
+.spring{
+    width: 400px;
+    height: 400px;
+    margin: 200px auto;
+    position: relative;
+    transform: rotateX(65deg);
+    transform-style: preserve-3d;
+}
+.spring>div{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid whitesmoke;
+    animation: movement ease-in-out 2s infinite alternate;
+}
+@keyframes movement{
+    to{
+    transform: translate(-50%, -50%)translateZ(150px)rotateX(65deg);
+
+    }
+}
+.spring>div:nth-of-type(1){
+    width: 20px;
+    height: 20px;
+    border-color: rgba(255, 0, 0, 0.288);
+
+}
+.spring>div:nth-of-type(2){
+    width: 30px;
+    height: 30px;
+    animation-delay: .3s;
+    border-color: rgba(255, 0, 0, 0.392);
+
+
+}
+.spring>div:nth-of-type(3){
+    width: 40px;
+    height: 40px;
+    animation-delay: .6s;
+    border-color: rgba(255, 0, 0, 0.496);
+
+
+}
+.spring>div:nth-of-type(4){
+    width: 50px;
+    height: 50px;
+    animation-delay: .9s;
+    border-color: rgba(255, 0, 0, 0.595);
+
+
+}
+.spring>div:nth-of-type(5){
+    width: 60px;
+    height: 60px;
+    animation-delay: 1.2s;
+    border-color: rgba(255, 0, 0, 0.66);
+
+
+}
+.spring>div:nth-of-type(6){
+    width: 70px;
+    height: 70px;
+    animation-delay:1.5s;
+    border-color: rgba(255, 0, 0, 0.703);
+
+}
+.spring>div:nth-of-type(7){
+    width: 80px;
+    height: 80px;
+    animation-delay:1.8s;
+    border-color: rgba(255, 0, 0, 0.726);
+
+}
+.spring>div:nth-of-type(8){
+    width: 90px;
+    height: 90px;
+    animation-delay: 2.1s;
+    border-color: rgba(255, 0, 0, 0.77);
+
+}
+.spring>div:nth-of-type(9){
+    width: 100px;
+    height: 100px;
+    animation-delay: 2.4s;
+    border-color: rgba(255, 0, 0, 0.803);
+
+}
+.spring>div:nth-of-type(10){
+    width: 110px;
+    height: 110px;
+    animation-delay: 2.7s;
+    border-color: rgba(255, 0, 0, 0.826);
+
+}
+.spring>div:nth-of-type(11){
+    width: 120px;
+    height: 120px;
+    animation-delay: 3s;
+    border-color: rgba(255, 0, 0, 0.848);
+
+}
+.spring>div:nth-of-type(12){
+    width: 130px;
+    height: 130px;
+    animation-delay: 3.3s;
+    border-color: rgba(255, 0, 0, 0.871);
+
+}
+.spring>div:nth-of-type(13){
+    width: 140px;
+    height: 140px;
+    animation-delay: 3.6s;
+    border-color: rgba(255, 0, 0, 0.895);
+
+}
+.spring>div:nth-of-type(14){
+    width: 150px;
+    height: 150px;
+    animation-delay: 3.9s;
+    border-color: rgba(255, 0, 0, 0.922);
+
+}
+.spring>div:nth-of-type(15){
+    width: 160px;
+    height: 160px;
+    animation-delay: 4.2s;
+    border-color: rgba(255, 0, 0, 0.942);
+
+}
+.spring>div:nth-of-type(16){
+    width: 170px;
+    height: 170px;
+    animation-delay: 4.5s;
+    border-color: rgba(255, 0, 0, 0.962);
+
+}
+.spring>div:nth-of-type(17){
+    width: 180px;
+    height: 180px;
+    animation-delay: 4.8s;
+    border-color: rgba(255, 0, 0, 0.978);
+
+}
+.spring>div:nth-of-type(18){
+    width: 190px;
+    height: 190px;
+    animation-delay: 5.1s;
+    border-color: rgba(255, 0, 0, 0.989);
+    
+}
+.spring>div:nth-of-type(19){
+    width: 200px;
+    height: 200px;
+    animation-delay: 5.4s;
+    border-color: red;
+}
